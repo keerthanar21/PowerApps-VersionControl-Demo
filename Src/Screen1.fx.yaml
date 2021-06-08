@@ -70,7 +70,7 @@ Screen1 As screen:
             ZIndex: =5
 
     Label2 As label:
-        Text: =LookUp(EmpMaster,ID=gallery1,MailColumn)
+        Text: =LookUp(EmpMaster,ID=gallery1,UserDisplayName)
         X: =802
         Y: =90
         ZIndex: =2
