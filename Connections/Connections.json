@@ -1,0 +1,30 @@
+{
+  "808523ef-dc0e-4819-a893-162b7548fc38": {
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/362b238616174fb18f3444bd111145cb",
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1472/1.0.1472.2427/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {}
+    },
+    "datasets": {
+      "https://maargasystems007.sharepoint.com/sites/PowerAppsTraining/LeaveManagement": {
+        "dataSources": {
+          "EMCRUDList": {
+            "tableName": "06c6195f-b453-48f6-bc0f-f195e008ea97"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "EMCRUDList"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "808523ef-dc0e-4819-a893-162b7548fc38"
+  }
+}
